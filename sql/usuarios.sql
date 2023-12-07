@@ -1,8 +1,9 @@
-CREATE TABLE usuarios(
+CREATE TABLE usuarios (
     username varchar,
     password varchar,
     token varchar,
-    timestamp varchar
+    timestamp timestamp
 );
 
-INSERT INTO usuarios (username, password, token, timestamp) VALUES ('oppie@gmail.com', 'a88730092144187f8d7b4d940456154a', '1234', DateTime('now')) ;
+INSERT INTO usuarios (username, password, token, timestamp) 
+VALUES ('oppie@gmail.com', 'oppie', '12345_asdf', CURRENT_TIMESTAMP);
